@@ -1,0 +1,85 @@
+\documentclass[landscape,onecolumn,letter]{book}
+\usepackage[spanish]{babel}
+\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{mathtools}
+
+\usepackage{setspace}
+
+\DeclareCaptionLabelSeparator{emdash}{\textemdash}
+\captionsetup[figure]{labelsep=emdash,font=onehalfspacing,position=bottom}
+\captionsetup{%
+	singlelinecheck=off,
+	skip=2pt,
+	justification=centering,
+}
+
+\makeindex 
+
+\title{Apuntes del Instructor: Electrónica III (PROBLEMARIO)}
+\date{2026 Mayo\\rev 0.1a}
+\author{Alberto Medrano\thanks{Instructor, Universidad de Los Andes (ULA)}, Manuel Rodriguez\thanks{Prof. Titular, Universidad de Los Andes (ULA)}, Roman Alí Contreras\thanks{Prof. Titular, Universidad de Los Andes (ULA)}}
+\begin{document}
+	\pagestyle{fancy}
+	
+	\fancyhead{} % clear all header fields
+	\fancyhead[RO,LE]{\textbf{Apuntes del Instructor:} Electrónica III}
+	\fancyfoot{} % clear all footer fields
+	\fancyfoot[LE,RO]{\thepage}
+	\fancyfoot[LO,CE]{Compilado por: A. Medrano}
+	
+	\maketitle
+	
+	\includegraphics[width=0.4\linewidth]{_fig/ULA.pdf}
+	
+	\textbf{Sobre el contenido de éstos apuntes}
+	
+	- - -
+	
+	Éstos son apuntes personales para la materia Electrónica III, contenido influenciado del Libro ELECTRÓNICA LINEAL AVANZADA, Asignatura: Electrónica III, Autor: Manuel Rodríguez y con contribuciones de ejercicios del Prof. Román Ali compilados en ésta guía. También considera algún material didáctico para complementar la información aquí proporcionada. De encontrar algún error o sugerencia por favor notificar vía correo electrónico a \href{mailto: medrano.alberto@ula.ve}{medrano.alberto@ula.ve}
+	
+	\tableofcontents
+	
+	\chapter{La respuesta de frecuencia de circuitos electrónicos} %p2
+	
+	\chapter{Amplificadores de varias etapas} %p70
+	
+	\chapter{Retroalimentación} %p129
+		\section{Ejercicio 1}
+		\section{Ejercicio 2}
+		\section{Ejercicio 3}
+		En el circuito se quiere que el LED genere luz proporcional a la entrada $V_s$. Es decir se quire un convertidor de tensión $V_s$ a corriente $I_o$.
+		\begin{itemize}
+			\item Halle la $R$ vista desde el LED.
+			\item Que hace pensar que este circuito es particularmente apto para lo que se quiere.
+		\end{itemize}
+		\section{Ejercicio 4}
+		\section{Ejercicio 5}
+		\section{Ejercicio 6}
+		\section{Ejercicio 7}
+		\section{Ejercicio 8}
+		\section{Ejercicio 9}
+		\section{Ejercicio 10}
+		\section{Ejercicio 11}
+		Halle $V_o / V_f$. Los FETs son identicos con $g_m = 10^{-3}$, $r_d s = \infty$
+		\section{Ejercicio 12}
+		\section{Ejercicio 13}
+		\section{Ejercicio 14}
+		\section{Ejercicio 15}		
+		\section{Ejercicio 16}
+			
+	\chapter{Estabilidad y osciladores} %p183
+	
+	\chapter{Lazo de enganche de fase (PLL)} %p223
+	
+	\chapter{Amplificadores de potencia} %p241
+
+	
+\end{document}

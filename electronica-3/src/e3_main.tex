@@ -1,0 +1,66 @@
+\documentclass[landscape,twocolumn,letter]{book}
+% Licencia y derechos: consulte ../../LICENSE-CC-BY-4.0.
+% Las figuras y demás materiales de terceros pueden tener derechos separados y deben identificarse.
+
+\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{mathtools}
+
+\DeclareCaptionLabelSeparator{emdash}{\textemdash}
+\captionsetup[figure]{labelsep=emdash,font=onehalfspacing,position=bottom}
+\captionsetup{%
+	singlelinecheck=off,
+	skip=2pt,
+	justification=centering,
+}
+
+\makeindex 
+
+\title{Apuntes del Instructor: Electrónica III}
+\date{2026 Mayo\\rev 0.1k}
+\author{Alberto Medrano\thanks{Instructor, Universidad de Los Andes (ULA)}, Manuel Rodriguez\thanks{Prof. Titular, Universidad de Los Andes (ULA)}, Roman Alí Contreras\thanks{Prof. Titular, Universidad de Los Andes (ULA)}}
+\begin{document}
+	\pagestyle{fancy}
+	
+	\fancyhead{} % clear all header fields
+	\fancyhead[RO,LE]{\textbf{Apuntes del Instructor:} Electrónica III}
+	\fancyfoot{} % clear all footer fields
+	\fancyfoot[LE,RO]{\thepage}
+	\fancyfoot[LO,CE]{Compilado por: A. Medrano}
+	
+	\maketitle
+
+	\includegraphics[width=0.4\linewidth]{_fig/ULA.pdf}
+	
+	\textbf{Sobre el contenido de éstos apuntes}
+
+	- - -
+
+	Éstos son apuntes personales para la materia Electrónica III, contenido influenciado del Libro ELECTRÓNICA LINEAL AVANZADA, Asignatura: Electrónica III, Autor: Manuel Rodríguez y con contribuciones de ejercicios del Prof. Román Ali compilados en ésta guía. También considera algún material didáctico para complementar la información aquí proporcionada. De encontrar algún error o sugerencia por favor notificar vía correo electrónico a \href{mailto: medrano.alberto@ula.ve}{medrano.alberto@ula.ve}
+
+	- - -
+	
+	Agradecimiento especial a los alumnos para con la transcripción del contenido:
+	
+	\begin{itemize}
+		\item \textbf{2025-A:} Alexander Belandria, Alejandro Besembel, Angel Ibañez, Franyhibel Ramirez, Jhonny Martínez, Samir Salas, Oswaldo Sanchez y Osmar Albarrán por las páginas digitalizadas del Capítulo III.
+		\item \textbf{2026-A:} Daniel Peña, Juan Spagnol, Juan Hernández, Luis Moncada y Luis Peña por las correcciones en la sección de Retroalimentación.
+	\end{itemize}
+
+	\tableofcontents
+
+    \include{e3_chapter1}	% Respuesta de frecuencia de circuitos electrónicos
+	\include{e3_chapter2}	% Amplificadores de varias etapas
+	\include{e3_chapter3}	% Retroalimentación
+	\include{e3_chapter4}	% Estabilidad y osciladores
+	\include{e3_chapter5}	% Lazo de enganche de fase (PLL)
+	\include{e3_chapter6}	% Amplificadores de potencia
+
+\end{document}

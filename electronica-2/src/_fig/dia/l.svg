@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="3cm" height="2cm" viewBox="20 18 60 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <path style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" d="M 20 40 L 32,40 C 30.5,30 29,20 36.5,20 C 44,20 45.5,40 41,40 C 36.5,40 38,20 45.5,20 C 53,20 54.5,40 50,40 C 45.5,40 47,20 54.5,20 C 62,20 63.5,40 59,40 C 54.5,40 56,20 63.5,20 C 71,20 69.5,35 68,40 L 80,40"/>
+  </g>
+</svg>
