@@ -1,0 +1,73 @@
+\documentclass[portrait,onecolumn,letter]{book}
+%\documentclass[10pt,letter]{scrartcl}
+\usepackage[spanish]{babel}
+\usepackage[left=1.5cm, right=1.5cm, top=1.5cm, bottom=1.5cm]{geometry}
+
+%\usepackage{geometry}
+%\usepackage{amsmath}
+%\usepackage{mathrsfs}
+%\usepackage{graphicx}
+%\usepackage{caption}
+%\usepackage{subcaption}
+%\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{setspace}
+\usepackage{fancyhdr}
+\usepackage{mathtools}
+
+\usepackage{setspace}
+%\spacing{1.5}
+
+\DeclareCaptionLabelSeparator{emdash}{\textemdash}
+\captionsetup[figure]{labelsep=emdash,font=onehalfspacing,position=bottom}
+\captionsetup{%
+	singlelinecheck=off,
+	skip=2pt,
+	justification=centering,
+}
+
+%\usepackage[T1]{fontenc}
+%\usepackage{imakeidx}
+\makeindex 
+
+\title{Apuntes de Electrónica I}
+\date{2026 Noviembre\\rev 0.1}
+\author{Alberto Medrano\thanks{Instructor, Universidad de Los Andes (ULA)}}
+\begin{document}
+	\pagestyle{fancy}
+	
+	\fancyhead{} % clear all header fields
+	\fancyhead[RO,LE]{\textbf{Apuntes del Instructor:} Electrónica I}
+	\fancyfoot{} % clear all footer fields
+	\fancyfoot[LE,RO]{\thepage}
+	\fancyfoot[LO,CE]{Compilado por: A. Medrano}
+	
+	\maketitle
+
+	\includegraphics[width=0.4\linewidth]{_fig/ULA.pdf}
+	
+	\textbf{Sobre el contenido de éstos apuntes}
+
+	Ésto es una remasterización del libro del Profesor Oscar Fuentes. De encontrar algún error o sugerencia por favor notificar vía correo electrónico a \href{mailto: medrano.alberto@ula.ve}{medrano.alberto@ula.ve}
+
+	- - -
+
+	Agradecimiento especial a los alumnos para con la transcripción del contenido:
+
+	\begin{itemize}
+		\item \textbf{2026-B:} Angel Osorio, Jesús Ramírez y Mitzael Rivas por las páginas digitalizadas durante su curso en la asignatura Electrónica I.
+	\end{itemize}
+
+	\tableofcontents
+	
+    \include{e1_chapter1}	% Amplificadores Operacionales
+	\include{e1_chapter2}	% Diodos
+	\include{e1_chapter3}	% Transistores Bipolares
+	\include{e1_chapter4}	% Transistores de Efecto de Campo
+    \include{e1_chapter5}	% Amplificador Diferencial0
+		
+\end{document}
