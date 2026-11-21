@@ -10,6 +10,12 @@ Este repositorio organiza la digitalización y el desarrollo colaborativo de lib
 
 Cada carpeta es un espacio inicial para sus fuentes y futuras versiones publicadas. La presencia de este repositorio no significa que ya existan materiales oficiales o publicados; esos materiales se identificarán explícitamente cuando sean revisados y aprobados.
 
+## Libros publicados
+
+- [Electrónica 1](electronica-1/publicado/e1_main.pdf)
+- [Electrónica 2](electronica-2/publicado/e2_main.pdf)
+- [Electrónica 3](electronica-3/publicado/e3_main.pdf)
+
 ## Cómo contribuir
 
 Se invita a los profesores a proponer correcciones y mejoras mediante cambios en una rama y una solicitud de incorporación (pull request). Las propuestas deben indicar el libro y las secciones afectadas. Antes de incorporarse a la rama principal, los cambios de contenido deben ser revisados por un profesor responsable de la materia. Los documentos solo deben presentarse como oficiales después de esa revisión y aprobación.
